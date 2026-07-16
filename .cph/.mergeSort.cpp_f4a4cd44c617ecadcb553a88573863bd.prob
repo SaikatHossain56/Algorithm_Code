@@ -1,0 +1,1 @@
+{"name":"Local: mergeSort","url":"e:\\E drive\\Academic Resources\\202\\Algo\\Algorithm_Code\\mergeSort.cpp","tests":[{"id":1784142095888,"input":"4\n6 5 4 3 ","output":"7 6 4 3 2 1 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\E drive\\Academic Resources\\202\\Algo\\Algorithm_Code\\mergeSort.cpp","group":"local","local":true}
