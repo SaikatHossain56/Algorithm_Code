@@ -1,0 +1,24 @@
+Algorithm:
+
+    push(s,0)
+
+    while( not empty):
+        pop, ignore visited, visit
+
+        for all edges:
+            ignore backword movements
+            compare
+            push
+
+Alternate approach: instead of using visited, push all and ignore if current dist >= min dist
+
+Time & Space:
+Space:
+Adjecency list: O (V + E) :ignored
+
+Time:
+priority_queue push/ pops: O (logV)
+All Edge Traverse: 2E for undirected graph, O(E)
+
+So, O(E * logV)
+

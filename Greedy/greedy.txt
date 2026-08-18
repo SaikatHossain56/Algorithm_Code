@@ -1,0 +1,22 @@
+Main Points:
+a. Optimizations, min, max, no. of ways
+b. sort/ priority queue to easily get local optimal.
+
+Time complexities: O(n) or O(n log n)
+Can generate near optimal solutions
+
+Limitations:
+Suboptimal solutions: local optimal may not ensure global optimal
+No backtracking: Never reconsider choices, this may miss out better solutions.
+
+Greedy Choice Property:
+locally optimal ---> global optimal
+If we choose the best solution at any moment it will help generating the overall best solution.
+
+Optimal Substructure:
+The optimal solution to a problem contains the optimal solutions to its subproblems
+Means Solving each subproblem optimally will leads to the overall optimal solution.
+
+1. Dijkstra's Algorithm:
+At each step, it chooses the vertex with shortest distance.
+
