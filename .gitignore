@@ -1,0 +1,32 @@
+# VS Code
+.vscode/
+
+# Competitive Programming Helper (CPH)
+.cph/
+
+# Build files / executables
+*.exe
+*.out
+*.o
+*.obj
+*.class
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+compile_commands.json
+
+# Debugging
+*.dSYM/
+*.stackdump
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary/editor files
+*.swp
+*.swo
+*~
