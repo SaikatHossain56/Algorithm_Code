@@ -1,3 +1,7 @@
+/*
+You are given N. you have to place N queens in a N*N grid, such that no queen attack each other.
+Return the list of columns associated with rows at indices.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
